@@ -1,0 +1,57 @@
+body {
+   background-size: cover;
+   background-position: center;
+}
+
+i {
+   cursor: pointer;
+}
+
+.top-right {
+   margin-top: 2em;
+   padding: 3px;
+   color: whitesmoke;
+   /* text-align: right; */
+}
+
+.clockCard,
+.weather__card {
+   background-color: rgba(238, 238, 238, 0.251);
+   backdrop-filter: blur(2px);
+   border-radius: 20px;
+   color: whitesmoke;
+}
+
+.table {
+   color: rgb(255 255 255 / 78%) !important;
+}
+
+a {
+   color: rgb(128 163 255) !important;
+}
+
+.clockCard h3 {
+   color: rgb(60, 64, 72);
+}
+
+.weather__card h3 {
+   /* line-height: .2; */
+   color: rgb(60, 64, 72);
+}
+
+.clockCard h5 {
+
+   color: rgb(60, 64, 72);
+}
+
+.weather__card .weather__description {
+   background-color: rgb(255, 255, 255);
+   border-radius: 20px;
+   padding: .3em .6em;
+   /*y,x*/
+   border: 0;
+   outline: none;
+   color: rgb(127, 132, 135);
+   font-size: .9rem;
+   /* font-weight: 400; */
+}
